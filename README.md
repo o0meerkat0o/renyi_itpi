@@ -71,17 +71,6 @@ python experiments/sensitivity.py
 # run tests
 python tests/test_renyi_mi.py
 ```
-
----
-
-## Open questions / TODOs
-
-- [ ] Find the alpha cutoff empirically — where does the estimate get too noisy to trust?
-- [ ] Does 50/50 split ratio matter in practice? Run `sensitivity.py` and see.
-- [ ] How much worse is KDE vs KSG at α=1 for our typical N? Quantify.
-- [ ] Implement the `c(α, p, h)` prefactor from Eq. 1.
-- [ ] Try cross-validation instead of a single train/test split.
-
 ---
 
 ## Relation to original IT-PI
